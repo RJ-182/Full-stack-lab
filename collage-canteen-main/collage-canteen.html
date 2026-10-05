@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ANITS Canteen Menu Website</title>
+    <style>
+        /* Basic Styles */
+        body {
+            background-color: #e6f2ff;
+            font-family: Arial, sans-serif;
+            
+        }
+
+        /* Header */
+        .header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .header h3 {
+            margin-top: 5px;
+            color: #ffcc00;
+            font-weight: normal;
+        }
+
+       
+        .notice {
+            background-color: #ffff99;
+            color: red;
+            padding: 8px;
+            text-align: center;
+            font-weight: bold;
+          
+        }
+
+      
+        .navbar {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            font-weight: bold;
+        }
+
+        
+        .main-container {
+            width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            border: 2px solid #003366;
+            padding: 20px;
+        }
+
+       
+        .category {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+
+        .category h2 {
+            color: #003366;
+            margin-top: 0;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 5px;
+        }
+
+        
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        li {
+            font-size: 16px;
+            padding: 5px 0;
+        }
+
+        .price {
+            color: green;
+            font-weight: bold;
+            float: right;
+        }
+
+        .footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>ANITS COLLEGE CANTEEN</h1>
+        <h3>Anil Neerukonda Institute of Technology & Sciences</h3>
+    </div>
+
+    <div class="notice">
+        Note: Canteen Timings - 8:30 AM to 4:30 PM | Cash and PhonePe Accepted!
+    </div>
+
+    <div class="navbar">
+        <a href="#tiffins">Tiffins</a>
+        <a href="#lunch">Lunch</a>
+        <a href="#snacks">Snacks</a>
+        <a href="#drinks">Drinks</a>
+    </div>
+
+    <div class="main-container">
+
+        <!-- Tiffins -->
+        <div class="category" id="tiffins">
+            <h2>1. Morning Tiffins</h2>
+            <ul>
+                <li>Idli (2 Pcs) <span class="price">Rs. 30</span></li>
+                <li>Vada (2 Pcs) <span class="price">Rs. 35</span></li>
+                <li>Plain Dosa <span class="price">Rs. 40</span></li>
+                <li>Masala Dosa <span class="price">Rs. 50</span></li>
+                <li>Puri <span class="price">Rs. 40</span></li>
+            </ul>
+        </div>
+
+        <!-- Lunch -->
+        <div class="category" id="lunch">
+            <h2>2. Lunch Items</h2>
+            <ul>
+                <li>Veg Meals <span class="price">Rs. 70</span></li>
+                <li>Veg Fried Rice <span class="price">Rs. 65</span></li>
+                <li>Egg Fried Rice <span class="price">Rs. 75</span></li>
+                <li>Chicken Fried Rice <span class="price">Rs. 90</span></li>
+                <li>Curd Rice <span class="price">Rs. 40</span></li>
+            </ul>
+        </div>
+
+        <!-- Snacks -->
+        <div class="category" id="snacks">
+            <h2>3. Evening Snacks</h2>
+            <ul>
+                <li>Samosa <span class="price">Rs. 15</span></li>
+                <li>Veg Puff <span class="price">Rs. 20</span></li>
+                <li>Egg Puff <span class="price">Rs. 25</span></li>
+                <li>Veg Noodles <span class="price">Rs. 60</span></li>
+            </ul>
+        </div>
+
+        <!-- Drinks -->
+        <div class="category" id="drinks">
+            <h2>4. Tea & Beverages</h2>
+            <ul>
+                <li>Tea <span class="price">Rs. 12</span></li>
+                <li>Coffee <span class="price">Rs. 15</span></li>
+                <li>Cool Drink <span class="price">Rs. 25</span></li>
+                <li>Water Bottle (1L) <span class="price">Rs. 20</span></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Website created by VEDAVYAS TOYAKA | Contact Canteen Supervisor for queries phn: 94873-68157
+    </div>
+
+</body>
+</html>
